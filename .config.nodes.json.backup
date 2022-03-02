@@ -443,7 +443,7 @@
     },
     "node-red-contrib-bigtimer": {
         "name": "node-red-contrib-bigtimer",
-        "version": "2.1.1",
+        "version": "2.7.5",
         "local": true,
         "user": true,
         "nodes": {
@@ -458,8 +458,7 @@
                 "module": "node-red-contrib-bigtimer",
                 "file": "/Users/mega_man/.node-red/node_modules/node-red-contrib-bigtimer/bigtimer.js"
             }
-        },
-        "pending_version": "2.7.5"
+        }
     },
     "node-red-contrib-stoptimer": {
         "name": "node-red-contrib-stoptimer",
@@ -482,7 +481,7 @@
     },
     "node-red-contrib-time-range-switch": {
         "name": "node-red-contrib-time-range-switch",
-        "version": "0.6.1",
+        "version": "1.0.1",
         "local": true,
         "user": true,
         "nodes": {
@@ -497,8 +496,7 @@
                 "module": "node-red-contrib-time-range-switch",
                 "file": "/Users/mega_man/.node-red/node_modules/node-red-contrib-time-range-switch/index.js"
             }
-        },
-        "pending_version": "1.0.1"
+        }
     },
     "node-red-contrib-weekday": {
         "name": "node-red-contrib-weekday",
@@ -559,7 +557,7 @@
     },
     "node-red-contrib-light-scheduler": {
         "name": "node-red-contrib-light-scheduler",
-        "version": "0.0.11",
+        "version": "0.0.17",
         "local": true,
         "user": true,
         "nodes": {
@@ -574,6 +572,17 @@
                 "module": "node-red-contrib-light-scheduler",
                 "file": "/Users/mega_man/.node-red/node_modules/node-red-contrib-light-scheduler/light-scheduler.js"
             },
+            "light-scheduler-filter": {
+                "name": "light-scheduler-filter",
+                "types": [
+                    "light-scheduler-filter"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-light-scheduler",
+                "file": "/Users/mega_man/.node-red/node_modules/node-red-contrib-light-scheduler/light-scheduler-filter.js"
+            },
             "light-scheduler-settings": {
                 "name": "light-scheduler-settings",
                 "types": [
@@ -585,8 +594,7 @@
                 "module": "node-red-contrib-light-scheduler",
                 "file": "/Users/mega_man/.node-red/node_modules/node-red-contrib-light-scheduler/light-scheduler-settings.js"
             }
-        },
-        "pending_version": "0.0.17"
+        }
     },
     "node-red-contrib-amazon-echo": {
         "name": "node-red-contrib-amazon-echo",
@@ -610,7 +618,7 @@
     },
     "node-red-node-pi-gpio": {
         "name": "node-red-node-pi-gpio",
-        "version": "1.1.1",
+        "version": "1.2.3",
         "local": true,
         "user": true,
         "nodes": {
@@ -628,12 +636,11 @@
                 "module": "node-red-node-pi-gpio",
                 "file": "/Users/mega_man/.node-red/node_modules/node-red-node-pi-gpio/36-rpi-gpio.js"
             }
-        },
-        "pending_version": "1.2.3"
+        }
     },
     "node-red-node-email": {
         "name": "node-red-node-email",
-        "version": "1.7.11",
+        "version": "1.12.3",
         "local": true,
         "user": true,
         "nodes": {
@@ -641,7 +648,8 @@
                 "name": "email",
                 "types": [
                     "e-mail",
-                    "e-mail in"
+                    "e-mail in",
+                    "e-mail mta"
                 ],
                 "enabled": true,
                 "local": true,
@@ -649,7 +657,6 @@
                 "module": "node-red-node-email",
                 "file": "/Users/mega_man/.node-red/node_modules/node-red-node-email/61-email.js"
             }
-        },
-        "pending_version": "1.12.3"
+        }
     }
 }

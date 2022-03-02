@@ -7,10 +7,13 @@
                 "view-show-tips": true,
                 "view-snap-grid": true,
                 "view-show-grid": true,
-                "view-node-show-label": true
+                "view-node-show-label": true,
+                "view-show-welcome-tours": true,
+                "view-store-position": false,
+                "view-store-zoom": false
             }
         },
-        "menu-menu-item-sidebar": false,
+        "menu-menu-item-sidebar": true,
         "menu-deploymenu-item-flow": false,
         "menu-deploymenu-item-full": false,
         "menu-deploymenu-item-node": true,
