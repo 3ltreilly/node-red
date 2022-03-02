@@ -407,7 +407,7 @@
     },
     "node-red-contrib-home-assistant-websocket": {
         "name": "node-red-contrib-home-assistant-websocket",
-        "version": "0.33.1",
+        "version": "0.43.0",
         "local": true,
         "user": true,
         "nodes": {
@@ -415,11 +415,13 @@
                 "name": "all",
                 "types": [
                     "ha-api",
+                    "ha-button",
                     "api-call-service",
                     "server",
                     "api-current-state",
                     "ha-device",
                     "ha-entity",
+                    "ha-entity-config",
                     "server-events",
                     "server-state-changed",
                     "ha-fire-event",
@@ -472,7 +474,7 @@
                 "types": [
                     "stoptimer"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-stoptimer",
@@ -548,7 +550,7 @@
                 "types": [
                     "alexa-local"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-alexa-local",
@@ -567,7 +569,7 @@
                 "types": [
                     "light-scheduler"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-light-scheduler",
@@ -578,7 +580,7 @@
                 "types": [
                     "light-scheduler-filter"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-light-scheduler",
@@ -589,7 +591,7 @@
                 "types": [
                     "light-scheduler-settings"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-light-scheduler",
@@ -631,7 +633,7 @@
                     "rpi-mouse",
                     "rpi-keyboard"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-node-pi-gpio",
@@ -652,7 +654,7 @@
                     "e-mail in",
                     "e-mail mta"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-node-email",

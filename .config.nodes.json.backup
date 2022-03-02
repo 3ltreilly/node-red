@@ -1,7 +1,7 @@
 {
     "node-red": {
         "name": "node-red",
-        "version": "2.0.3",
+        "version": "2.2.2",
         "local": false,
         "user": false,
         "nodes": {
@@ -64,7 +64,8 @@
                 "name": "link",
                 "types": [
                     "link in",
-                    "link out"
+                    "link out",
+                    "link call"
                 ],
                 "enabled": true,
                 "local": false,
@@ -439,7 +440,8 @@
                 "module": "node-red-contrib-home-assistant-websocket",
                 "file": "/Users/mega_man/.node-red/node_modules/node-red-contrib-home-assistant-websocket/dist/index.js"
             }
-        }
+        },
+        "pending_version": "0.43.0"
     },
     "node-red-contrib-bigtimer": {
         "name": "node-red-contrib-bigtimer",
@@ -471,7 +473,7 @@
                 "types": [
                     "stoptimer"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-stoptimer",
@@ -547,7 +549,7 @@
                 "types": [
                     "alexa-local"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-alexa-local",
@@ -566,7 +568,7 @@
                 "types": [
                     "light-scheduler"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-light-scheduler",
@@ -577,7 +579,7 @@
                 "types": [
                     "light-scheduler-filter"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-light-scheduler",
@@ -588,7 +590,7 @@
                 "types": [
                     "light-scheduler-settings"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-contrib-light-scheduler",
@@ -630,7 +632,7 @@
                     "rpi-mouse",
                     "rpi-keyboard"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-node-pi-gpio",
@@ -651,7 +653,7 @@
                     "e-mail in",
                     "e-mail mta"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": true,
                 "user": false,
                 "module": "node-red-node-email",
